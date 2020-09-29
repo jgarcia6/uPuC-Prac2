@@ -15,9 +15,10 @@ typedef struct bullsAndCowsTag{
 
 bullsAndCowsType evalBullsAndCows(char *secrete, char *guess);
 
+#ifndef TEST_HARNESS
 int main(void)
 {
     // Port Prac1 to achieve same behavior
     return 0;
 }
-
+#endif // main()
